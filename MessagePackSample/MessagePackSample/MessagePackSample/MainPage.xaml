@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MessagePackSample.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Frame
+                BackgroundColor="#2196F3"
+                CornerRadius="0">
+                <Label
+                    FontSize="36"
+                    HorizontalTextAlignment="Center"
+                    Text="Welcome to Xamarin.Forms!"
+                    TextColor="White" />
+            </Frame>
+
+            <Label
+                x:Name="MyLabel1"
+                Text="placeholder" />
+
+            <Editor
+                x:Name="MyEntry1"
+                Text="placeholder"
+                VerticalOptions="FillAndExpand" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
